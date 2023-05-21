@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 2 auto;
+    box-sizing: border-box;
+}
+
+.section{
+    padding: 62px 0;
+    background-color: #f7f7f7;
+    margin: 0 auto;
+}
+.section h2{
+    font-size: 26px;
+    color: blue;
+    text-align: center;
+    
+} 
+.good{
+   margin-bottom: 15px;
+   margin-left: 5px;
+   
+}
+
+
+.form input{
+    width: 100%;
+    display: block;
+    padding: 14px 20px 17px;
+    border: 1px solid #ceddce;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+background-color: rgba(red, green, blue, alpha);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+    cursor: pointer;
+    -webkit-appearance: none
+}
+.man{
+    display: none;
+}
+.tea{
+    background-color: paleturquoise;
+    display: inline;
+    font-size: 18px;
+    
+}
+.tee{
+    font-size: 18px;
+    color: #2e5180;
+    font-weight: bold;
+    margin: 20px 30px 0;
+}
+.woman{
+    font-size: 18px;
+    color: #2e5180;
+    font-weight: bold;
+    margin: 20px 30px 0; 
+}
+.ton{
+    color: blue;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+
+}
+.ton-type{
+    display: none;
+    border: #115cbe;
+    flex: none;
+}
+.form .input{
+    display: none;
+}
+.boy{
+    font-size: 18px;
+    color: #2e5180;
+    font-weight: bold;
+    margin: 20px 50px 0; 
+    text-align: center;
+}
+select{
+    border: 3px solid grey;
+    width: 70%;
+    height: 30px;
+    align-items: center;
+    margin: 10px 40px 10px ;
+    border-radius: 5px;
+}
+option{
+    color:blue ;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.value{
+    color:blueviolet ;
+    margin-left: 15%;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+/*.form input[type=text] ,
+.form input[type= email] ,
+.form input[type=password] ,
+.form input[type=radio] ,
+.form input[type=submit] ,
+.form input[type=checkbox] ,
+.form input[type=date]{
+    width: 100px;
+    margin-bottom: 17px;
+    padding: 14px 20px 17px;
+    border :1px solid #ceddce;
+    box-sizing: border-box;
+    border-radius: 0;
+    -webkit-appearance:none ;
+    font-size: 16px;
+}*/
+.form textarea{
+    height: 200px;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn{
+    display: block;
+    width: 100%;
+    padding: 11px 11px 13px;
+    border: 2px solid currentColor;
+    border-radius: 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #2e5180;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+
+}
+.form.btn:hover{
+    color: #2e5180;
+    background-color: #ffff;
+}
+.man{
+    flex-direction: column;
+    width: 100%;
+    padding: 11px 11px 13px;
+    border: 2px solid currentColor;
+    border-radius: 24px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #2e5180;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; 
+}
+@media (min-width:900px){
+    .section{
+        background: none;
+        padding: 0;
+        margin: 0 auto;
+        background-color: #eef4f8;
+        padding: 96px 9% 62px;
+        box-sizing: border-box;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        width: 91%;
+        min-width: 1240px;
+        
+    }
+     .header{
+       
+    }
+    .form input{
+    width: 50%;
+    display: block;
+    
+    border: 1px solid #ceddce;
+
+
+    box-sizing: border-box;
+
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    
+    cursor: pointer;
+    -webkit-appearance: none
+    }
+   
+}
